@@ -4,16 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitsense</title>
-    <link rel="stylesheet" href="login.css">
+    <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: orange;
+            }
+            .container{
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container , .form{
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+            }
+
+
+            input{
+                margin:3%;
+                padding: 1%;
+            }
+
+            .submit{
+                padding: 0.5%;
+            }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>"Welcome TO Fitsense"</h1>
+        <h1>"Login to Someone.com"</h1>
         <div class="form"> 
         <input type="text" placeholder="Enter UserId">
         <input type="password" placeholder="Enter password">
         </div>
-        <button class="submit">Submit</button>
+        <button class="submit">Login</button>
     </div>
     
 </body>

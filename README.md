@@ -1,2 +1,4 @@
-# FitSense
-FitSense is a project , which is based On Enhancing Fitness Center Experience.
+# Welcome to Template Repo
+
+
+These Repository will include all the required small web pages templates that will be helpfull for creating a large project.
