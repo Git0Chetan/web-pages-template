@@ -1,82 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Birthday Wish for Vaishu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in one</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #900C3F;
-            margin: 0;
-            padding: 0;
+        body{
+            background-color: brown;
+            height: 80vh;
         }
-
-        #container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            width: 50%;
-            margin: 50px auto;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-            animation: fadeIn 1s;
+        .contain{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10%;
         }
-
-        h1 {
-            color: #900C3F;
-            font-size: 36px;
-            margin: 0;
-            padding: 10px 0;
-            animation: heartBeat 1s infinite;
+        .box{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
         }
-
-        p {
-            font-size: 18px;
-            line-height: 1.5;
-            animation: fadeIn 2s;
+        .sel{
+            border: 2px solid black;
+            padding: 6%;
+            margin:2%;
+            box-shadow: -1px -1px 4px white, 1px 1px 4px white;
         }
-
-        #heart {
-            font-size: 36px;
-            color: red;
+        p{
+            font-size: 180%;
         }
-
-        @keyframes heartBeat {
-            0% {
-                transform: scale(1);
-            }
-            20% {
-                transform: scale(1.1);
-            }
-            40% {
-                transform: scale(1);
-            }
-            60% {
-                transform: scale(1.1);
-            }
-            80% {
-                transform: scale(1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        a{
+            text-decoration: none;
+            color: rgb(9, 33, 54);
+            font-weight: bold;
+            font-size: 150%;
         }
     </style>
 </head>
 <body>
-    <div id="container">
-        <h1>Happy Birthday, Vaishu! <span id="heart">♥️</span></h1>
-        <p>On this special day, I just want to remind you how much you mean to me. You bring endless joy and love into my life, and I'm grateful to have you by my side. Wishing you all the happiness in the world on your birthday!</p>
+    <div class="contain">
+        <h1>All the samples of templates available Below</h1>
+        <p>"Click on respective template to view"</p>
+        <div class="box">
+            <div class="sel">
+                <a href="Frontend/Birthday.html">Birthday</a>
+            </div>
+            <div class="sel">
+                <a href="Frontend/login.html">Login</a>
+            </div>
+            <div class="sel">
+                <a href="Frontend/Welcome.html">Welcome</a>
+            </div>
+            <div class="sel"></div>
+            <div class="sel"></div>
+        </div>
     </div>
 </body>
 </html>
