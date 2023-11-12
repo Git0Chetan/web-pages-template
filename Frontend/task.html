@@ -24,6 +24,21 @@
             padding: 15%;
             border-radius: 50%;
             box-shadow: 5px 5px 10px white;
+            animation: aa 1s infinite;
+        }
+
+        .circle:hover{
+            animation: none;
+        }
+
+        @keyframes aa{
+            0%,100%{
+                transform: translateY(0px);
+            }
+
+            50%{
+                transform: translateY(80px);
+            }
         }
 
         h1{
@@ -54,7 +69,7 @@
             <h1>Task Of Trainer</h1>
         </div>
     </div>
-    <div class="box"> 
+    <!-- <div class="box">  -->
         <div class="task">
             <div class="circle">
                 <h1>Task Of Trainer</h1>
